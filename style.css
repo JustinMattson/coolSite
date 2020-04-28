@@ -38,14 +38,16 @@ p {
   margin-top: 20px;
 }
 
-.headline, .side_note {
+.headline {
   display: inline-block;
   width: 40%;
   text-align: left;
+  margin-right: 75px;
 }
 .side_note {
-  margin-top: 100px;
-  margin-left: 150px;
+  display: inline-block;
+  text-align: left;
+  margin-top: 30px;
   width: 25%;
   font-size: small;
   position: absolute;
