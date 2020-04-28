@@ -57,7 +57,10 @@ p {
   height: 150px;
 }
 
+/* Prevent image from expanding outside of container using max height/width */
 img {
+  max-height: 150px;
+  max-width: 100px;
   width: 50%;
   border: solid black 1px;
 }
